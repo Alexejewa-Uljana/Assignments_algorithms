@@ -1,3 +1,4 @@
+//Alekseeva Ulyana st129990@student.spbu.ru
 #include "Decoder.h"
 #include <iostream>
 #include <stdexcept>
