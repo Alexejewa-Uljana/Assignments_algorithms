@@ -1,3 +1,4 @@
+//Alekseeva Ulyana st129990@student.spbu.ru
 #include "Encoder.h"
 #include <iostream>
 
