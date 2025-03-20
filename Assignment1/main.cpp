@@ -9,16 +9,16 @@ int main(int argc, char* argv[]) {
     bool isEncoding = true;
     if (argc > 1) {
         std::string option = argv[1];
-        if (option == "-encode") {
+        if (option == "-e") {
             isEncoding = true;
         }
-        else if (option == "-decode") {
+        else if (option == "-d") {
             isEncoding = false;
         }
         else {
-            std::cerr << "Usage: " << argv[0] << " [-encode] [-decode]\n";
-            std::cerr << "  -encode: Encode input ASCII85\n";
-            std::cerr << "  -decode: Decode input ASCII85\n";
+            std::cerr << "Usage: " << argv[0] << " [-e] [-d]\n";
+            std::cerr << "  -e: Encode input ASCII85\n";
+            std::cerr << "  -d: Decode input ASCII85\n";
             return 1;
         }
     }
